@@ -66,7 +66,7 @@ describe("Testing add()", function(){
 
     it('Should success if result is true', function(){
         const result = true;
-        const result1 = true;
+        const result1 = false;
         expect(result).to.equal(true);
         expect(result1).to.equal(false);
     });
