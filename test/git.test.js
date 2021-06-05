@@ -63,4 +63,9 @@ describe("Testing add()", function(){
         expect(output_add).to.equal('Successfully added as index file/s.');
         expect(output_status).to.equal('You have 1 change/s.\n.github/workflows/actions.yml');
     });
+
+    it('Should success if result is true', function(){
+        const result = true;
+        expect(result).to.equal(true);
+    });
 })
