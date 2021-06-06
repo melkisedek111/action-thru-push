@@ -19,6 +19,7 @@ class GitCommand {
             }
             console.log(1);
             console.log(1);
+            console.log(1);
             return status;
         } else {
             return 'You have 0 change/s.\n';
