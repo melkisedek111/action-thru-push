@@ -17,6 +17,7 @@ class GitCommand {
             for(const path of paths) {
                 status += `\n${path}`;
             }
+            console.log(1)
             return status;
         } else {
             return 'You have 0 change/s.\n';
